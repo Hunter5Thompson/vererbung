@@ -5,10 +5,11 @@ public class Nachbesteller {
 	public static void main (String[] args) {
 		kebap k = new kebap();
 		brillen b = new brillen();
-	}
+	
 	
 	nachbestellen(k);
 	nachbestellen(b);
+}
 	
 	public static void nachbestellen (Ware w) {
 		
