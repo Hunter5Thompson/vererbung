@@ -9,31 +9,19 @@ package Package ;
 
 public class consols extends entertainment products
 {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
+	
 	
 	protected int preis;
-	
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
 	protected int breite;
 	
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 */
+
 	public consols(){
-		super();
+		this.preis = 550;
+		this.breite = 120;
+		this.artikelnummer = 0158;
+		this.bezeichnung = "Playstation";
+		this.hersteller = "Sony";
+		
 	}
 
 }
